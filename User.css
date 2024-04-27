@@ -1,0 +1,205 @@
+.head{
+    background-color: #051e3e;
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .hommies{
+    /* background-color: #A2D2FF; */
+
+/* } */ 
+body{
+    background-color: #A2D2FF;
+}
+.div_line{
+    background-color: #70a5b5;
+    /* display: flex; */
+    text-align: center;
+    height: 30px;
+}
+.Log{
+    padding: 80px;
+}
+.Sign{
+    padding: 80px;
+}
+.box1{
+    background-color: white;
+    
+    padding: 10px;
+    margin: 50px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfoSe8fe_5ko9kxvXCxhT2dYfk6b8mRpttEA&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 20px #4a2929;
+    transition: all 1s;
+    /* background-position: center; */
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 50%); */
+    
+    
+}
+.box1 h3{
+    font-size: 30px;
+}
+
+.wrap1{
+    display: flex;
+    margin-left: 130px;
+    
+}
+.abt{
+    text-align: center;
+}
+.box2{
+    background-color: white;
+    box-shadow: 0 0 20px #4a2929;
+    padding: 10px;
+    margin: 50px;
+    height: 400px;
+    width: 500px;
+    background-image: url('https://img.freepik.com/free-photo/medical-stethoscope-isolated-with-black-background-medical-concept-stethoscope-black-background-with-space-text-health-concept-medical-conceptual_1391-769.jpg');
+    transition: all 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.box2 h3{
+    font-size: 30px;
+}
+/* .wrap2{
+    display: flex;
+} */
+.wrap3{
+    display: flex;
+    margin-left: 130px;
+}
+.box3{
+    background-color: white;
+    box-shadow: 0 0 20px #4a2929;
+    padding: 10px;
+    margin: 50px;
+    height: 500px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://www.shutterstock.com/image-illustration/hospital-bed-icon-isolated-on-260nw-2375514335.jpg');
+    border-radius: 20px;
+    transition: all 1s;
+}
+.box4{
+    background-color: white;
+    box-shadow: 0 0 20px #4a2929;
+    padding: 10px;
+    margin: 50px;
+    height: 400px;
+    width: 500px;
+    background-image: url('https://www.shutterstock.com/image-illustration/hospital-bed-icon-isolated-on-260nw-2375514335.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.box4 h3{
+    font-size: 30px;
+}
+.box5{
+    background-color: white;
+    box-shadow: 0 0 20px #4a2929;
+    padding: 10px;
+    margin: 50px;
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    transition: all 1s;
+    background-image: url('https://img.freepik.com/free-photo/abstract-blur-hospital-clinic-interior_74190-4854.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1703289600&semt=ais');
+}
+.box6{
+    background-color: rgb(21, 52, 93);
+    box-shadow: 0 0 20px #4a2929;
+    padding: 10px;
+    margin: 50px;
+    height: 400px;
+    width: 500px;
+    /* padding: 50px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL3aH9xmFJ8D-2SMORFH53L_ITQ6KLl0xQvg&usqp=CAU');
+    transition: all 1s;
+}
+.box6 h3{
+    font-size: 30px;
+}
+.write{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-size: 20px;
+    opacity: 1;
+    
+}
+.Buton{
+    text-align: center;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    background-color: rgb(3, 3, 91);
+    color: #fcfcfc;
+    width: 90px;
+    height: 20px;
+    margin: auto;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+}
+.Buton a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+.Buton:hover{
+    color: rgb(188, 205, 218);
+    box-shadow:  0 0 5px cyan,
+    0 0 5px cyan, 0 0 5px cyan,
+    0 0 5px cyan, 0 0 5px cyan;
+    transition: 5sec ease;
+    
+    /* z-index: 2; */
+    /* background-size: 110px; */
+    background-color: #A2D2FF;
+    color: rgb(3, 12, 56);
+    
+}
+.box1:hover{
+    transform: scale(1.1);
+
+    /* transition: 30s; */
+}
+.box2:hover{
+    transform: scale(1.1);
+} 
+.box3:hover{
+    /* background-size: 110%;
+    transition: 30s; */
+    transform: scale(1.1);
+}
+.box4:hover{
+    /* background-size: 110%;
+    transition: 30s; */
+    transform: scale(1.1);
+}
+.box5:hover{
+    /* background-size: 110%;
+    transition: 30s; */
+    transform: scale(1.1);
+}
+.box6:hover{
+    /* background-size: 110%;
+    transition: 30s; */
+    transform: scale(1.1);
+}
